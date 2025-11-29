@@ -7,13 +7,14 @@ label start:
         block:
             linear 0.05 xoffset 10
             linear 0.05 xoffset -10
-            pause 0.03
             repeat
     #Upload the background image
     image ship = "photos/0.jpg"
     #Show the background image
     scene ship
     show ship at truecenter,random_shake
+    pause 1.5
+    show ship at truecenter
     #Define a character
     define robin = Character("Robin", color="#cd8b35")
     define pa1   = Character("Passenger 1", color="#357ec7")
