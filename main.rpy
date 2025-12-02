@@ -60,4 +60,13 @@ label start:
     robin "不列！我记不起来了，我到底为什么在......"
     #Telephone
     play sound "sounds/1.ogg"
-     
+    "（响铃）"
+    "一个无感情的女声"
+    "“先生，您醒了？今天的早餐尚未开始供应，但赌场仍处于开放时间，您不去试试手气吗？”"
+    robin "“也许，我应该带上筹码去看看。”"
+
+    #Scene 3
+    #Upload the background image
+    image cor = "photos/0.jpg"
+    #Show the background image
+    scene cor at truecenter
