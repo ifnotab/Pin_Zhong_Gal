@@ -54,3 +54,9 @@ label start:
     pause 0.1
     #stop camera movement
     show sunrise at truecenter
+    #continue dialogue
+    robin "舷窗，招待所般的布置，奢华的装潢，还有......一叠筹码？这是在一艘游轮上？还是一座赌场里？"
+    robin "我怎么会在游轮上？我应该在......呃！"
+    robin "不列！我记不起来了，我到底为什么在......"
+
+    
