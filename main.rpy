@@ -70,3 +70,9 @@ label start:
     image cor = "photos/0.jpg"
     #Show the background image
     scene cor at truecenter
+
+    menu:
+        "正中到右侧赌场":
+            "1"
+        "左侧酒馆" if False:
+            pass
