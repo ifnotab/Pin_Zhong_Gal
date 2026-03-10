@@ -98,11 +98,11 @@ label Scene_4:
     menu:
         "1号台":
             jump Scene_5
-        "2号台":
+        "2号台" if False:
             pass
-        "3号台":
+        "3号台" if False:
             pass
-        "4号台":
+        "4号台" if False:
             pass
-        "5号台":
+        "5号台" if False:
             pass
