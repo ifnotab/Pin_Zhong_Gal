@@ -106,3 +106,32 @@ label Scene_4:
             pass
         "5号台" if False:
             pass
+
+label Scene_5:
+
+    #Scene_5 
+    #Upload the background image
+    image tab = "photos/0.jpg"
+
+    #Character
+    define QL = Character("QL", color="#11DA22")
+    QL "哦，先生真是闲情逸致呢，这么早就来玩吗？怎么称呼，先生？"
+    robin "叫我......叫我罗宾吧。"
+    QL "您想玩点什么呢？21点？德州扑克？还是简单的石头剪刀布？"
+    robin "我想想，教教我规则吧。"
+
+label Rules:
+
+    menu:
+        "21点":
+            "21点是一种比较简单的牌类游戏，玩家和庄家各自发两张牌，玩家可以选择要牌或者停牌，目标是让自己的牌点数总和尽量接近21点，但不能超过21点。"
+            jump Rules
+        "德州扑克":
+            "德州扑克是一种比较复杂的牌类游戏，玩家和庄家各自发两张牌，玩家可以选择要牌或者停牌，目标是让自己的牌点数总和尽量接近21点，但不能超过21点。"
+            jump Rules
+        "石头剪刀布":
+            "石头剪刀布是一种比较简单的游戏，玩家和庄家各自出一个手势，石头胜剪刀，剪刀胜布，布胜石头。"
+            jump Rules
+        "离开":
+            jump Scene_6
+            
