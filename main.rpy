@@ -96,9 +96,13 @@ label Scene_4:
 
     #Choose 
     menu:
-        "到右侧赌场":
-            jump Scene_4
-        "酒馆 (熄灯不可选)" if False:
+        "1号台":
+            jump Scene_5
+        "2号台":
             pass
-        "回到走廊 (暂时不可选)" if False:
+        "3号台":
+            pass
+        "4号台":
+            pass
+        "5号台":
             pass
