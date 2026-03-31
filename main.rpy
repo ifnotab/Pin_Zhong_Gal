@@ -122,6 +122,7 @@ label Scene_5:
 
 label Rules:
 
+    #Rules introduction
     menu:
         "21点":
             "21点是一种比较简单的牌类游戏，玩家和庄家各自发两张牌，玩家可以选择要牌或者停牌，目标是让自己的牌点数总和尽量接近21点，但不能超过21点。"
@@ -135,3 +136,8 @@ label Rules:
         "离开":
             jump Scene_6
             
+label Scene_6:
+    
+    #The mian part of this game
+    #So we need to upload the .py file, then we can play the game on it
+    import 
