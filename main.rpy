@@ -136,8 +136,13 @@ label Rules:
         "离开":
             jump Scene_6
             
-label Scene_6:
+init python:
     
     #The mian part of this game
     #So we need to upload the .py file, then we can play the game on it
-    import 
+    #This part is aim to upload it.
+    import royal_navy.main
+
+label Scene_6:
+
+    a()
