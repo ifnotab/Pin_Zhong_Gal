@@ -141,8 +141,5 @@ init python:
     #The mian part of this game
     #So we need to upload the .py file, then we can play the game on it
     #This part is aim to upload it.
-    import royal_navy.main
-
-label Scene_6:
-
-    a()
+    import main as main
+    main.a()
