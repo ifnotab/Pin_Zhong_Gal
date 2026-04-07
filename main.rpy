@@ -188,7 +188,7 @@ label Scene_11:
 label Scene_12:
     menu:
         "到右侧赌场":
-            jump Scene_4
+            jump Scene_6
         "酒馆":
             jump Scene_13
         "回到走廊 (暂时不可选)" if False:
