@@ -137,9 +137,19 @@ label Rules:
             jump Scene_6
             
 init python:
-    
-    #The mian part of this game
-    #So we need to upload the .py file, then we can play the game on it
-    #This part is aim to upload it.
-    import main as main
-    main.a()
+
+    #Import the python game
+    import subprocess
+    import os
+    def launch_external_python():
+        script_path = os.path.join(config.gamedir, "main.py")
+        subprocess.run(["python", script_path], shell=True)
+
+label Scene_6:
+
+    QL "那我们开始吧"
+
+    #Run the game
+    $ launch_external_python()
+
+    robin "1"
