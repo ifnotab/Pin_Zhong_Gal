@@ -152,4 +152,56 @@ label Scene_6:
     #Run the game
     $ launch_external_python()
 
-    robin "1"
+    robin "就到这里吧，我有点厌倦了。"
+    QL "要聊聊天解乏吗，抑或是我替您点一杯？您稍后也可以到酒馆那里继续喝哦"
+    robin "和我聊聊......"
+
+    jump Scene_7
+
+label Scene_7:
+
+    #Choose 
+    menu:
+        "和我聊聊这艘船吧":
+            jump Scene_8
+        "和我聊聊这个赌场吧":
+            jump Scene_9
+        "和我聊聊这艘船的船主吧":
+            jump Scene_10
+        "和我聊聊这里的故事吧":
+            jump Scene_11
+        "离开":
+            jump Scene_12
+
+label Scene_8:
+    jump Scene_7
+
+label Scene_9:
+    jump Scene_7
+
+label Scene_10:
+    jump Scene_7
+
+label Scene_11:
+    jump Scene_7
+
+label Scene_12:
+    menu:
+        "到右侧赌场":
+            jump Scene_4
+        "酒馆":
+            jump Scene_13
+        "回到走廊 (暂时不可选)" if False:
+            pass
+
+label Scene_13:
+    define uncle = Character("Uncle", color="#6d380f85")
+    uncle "嗯，请坐，来点什么？"
+    robin "来杯伏特加，不加冰。"
+    uncle "新面孔，想听听情报吗。"
+    robin "(排出100筹码)"
+    robin "你能告诉我什么？怎么下船？或是，赌场有什么秘密吗？"
+    uncle "哈，赌场的秘密怎么是我能说得清楚的。不过怎么下船我倒是可以告诉你，你有多少筹码？"
+    robin "大概1000，够么？"
+    uncle "不够，一张船票200黄金筹码，1黄金筹码10000筹码，新面孔，天还没亮，等你有足够筹码的时候，就来找我吧。"
+    robin "等你和她们混熟点，我也可以给你搞点情报和礼物，现在，先回去睡一觉吧。"
