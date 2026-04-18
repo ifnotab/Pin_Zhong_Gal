@@ -15,7 +15,7 @@ label Scene_1:
             linear 0.05 xoffset -10
             repeat 5    
     #Upload the background image
-    image ship = "photos/0.jpg"
+    image ship = "photos/1.jpg"
     #Show the background image
     scene ship
     #Shaking
