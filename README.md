@@ -14,3 +14,4 @@ This programme is for Beijing 15 Galgame Club, used to upload files.<br/>
 **确保自己已经安装了python!!!**  
 **确保自己已经安装了python!!!**  
 **确保自己已经安装了python!!!**  
+只需要点击可执行文件即可
