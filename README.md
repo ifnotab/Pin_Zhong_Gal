@@ -11,6 +11,6 @@ This programme is for Beijing 15 Galgame Club, used to upload files.<br/>
 下载完成后解压缩备用
 
 # 游玩
-## 确保自己已经安装了python
-## 确保自己已经安装了python
-## 确保自己已经安装了python
+**确保自己已经安装了python**
+**确保自己已经安装了python**
+**确保自己已经安装了python**
